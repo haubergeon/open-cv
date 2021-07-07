@@ -2,8 +2,10 @@
 
 import cv2
 import sys
-
+# s = 0 indicates the default camera, usually the webcam
 s = 0
+
+# code to check if there is a command line specification that alters the default value of the #cam which we have used as s = 0
 if len(sys.argv) > 1:
     s = sys.argv[1]
 
